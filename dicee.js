@@ -1,10 +1,14 @@
 
 if(sessionStorage.getItem("flag") !== null) {
-  var nums = updateDices();
-  updateHeader(nums);
+  play();
 }
 else {
   sessionStorage.setItem("flag", true);
+}
+
+function play() {
+  var nums = updateDices();
+  updateHeader(nums);
 }
 
 function updateHeader(numbers) {

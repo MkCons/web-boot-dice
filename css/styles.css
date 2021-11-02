@@ -32,6 +32,12 @@ img {
   width: 80%;
 }
 
+.button {
+  margin: 30px;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
 footer {
   margin-top: 5%;
   color: #EEEEEE;
